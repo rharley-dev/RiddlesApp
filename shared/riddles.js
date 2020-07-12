@@ -54,7 +54,7 @@ export const RIDDLES = [
     answer: ['all of them', 'every month'],
   },
   {
-    id: 2,
+    id: 6,
     name: 'Day 7',
     color: '',
     difficulty: 'easy',
@@ -63,7 +63,7 @@ export const RIDDLES = [
     answer: ['all of them', 'every month'],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Day 8',
     color: '',
     difficulty: 'easy',
@@ -72,7 +72,7 @@ export const RIDDLES = [
     answer: ['all of them', 'every month'],
   },
   {
-    id: 2,
+    id: 8,
     name: 'Day 9',
     color: '',
     difficulty: 'easy',
