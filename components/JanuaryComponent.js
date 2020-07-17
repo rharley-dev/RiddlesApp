@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import Accordion from 'react-native-collapsible/Accordion';
 import { RIDDLES } from '../shared/riddles';
 
-class Home extends Component {
+class January extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default January;

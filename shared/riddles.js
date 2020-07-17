@@ -6,7 +6,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: false,
     riddle: 'What has to be broken before you can use it?',
-    answer: ['an egg', 'egg'],
+    answer: 'an egg'
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: false,
     riddle: 'I’m tall when I’m young, and I’m short when I’m old. What am I?',
-    answer: ['a candle', 'candle'],
+    answer: 'a candle'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
   {
     id: 8,
@@ -78,6 +78,6 @@ export const RIDDLES = [
     difficulty: 'easy',
     featured: true,
     riddle: 'What month of the year has 28 days?',
-    answer: ['all of them', 'every month'],
+    answer: 'all of them'
   },
 ];

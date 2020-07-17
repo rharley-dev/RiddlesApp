@@ -1,7 +1,27 @@
 import React, { Component } from 'react';
-import Home from './HomeComponent';
+import January from './JanuaryComponent';
 import { RIDDLES } from '../shared/riddles';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { createStackNavigator } from 'react-navigation';
+
+const JanuaryNavigator = createStackNavigator(
+  {
+      January: { screen: January },
+  }, 
+  {
+      initialRouteName: 'January',
+      navigationOptions: {
+          headerStyle: {
+              backgroundColor: '#76D7C4'
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+              color: '#fff'
+          }
+      }
+  }
+);
+
 
 class Main extends Component {
   constructor(props) {
@@ -12,7 +32,11 @@ class Main extends Component {
   }
 
   render() {
-    return <Home riddles={this.state.riddles} style={styles.container} />;
+    return (
+    <View style={{flex: 1, paddingTop: Platform.OS === 'ios' ? 0 : Expo.Constants.statusBarHeight }}>
+      <JanuaryNavigator riddles={this.state.riddles} style={styles.container} />;
+    </View>
+    );
   }
 }
 
