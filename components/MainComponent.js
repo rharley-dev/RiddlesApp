@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import January from './JanuaryComponent';
 import { RIDDLES } from '../shared/riddles';
 import { StyleSheet, View } from 'react-native';
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator } from '@react-navigation/stack';
 
 const JanuaryNavigator = createStackNavigator(
   {
